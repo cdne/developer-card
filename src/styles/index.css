@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+}
+
+body {
+  background: #23252c;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 780px;
+  width: 317px;
+  background-color: white;
+  margin: 50px;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.image-container {
+  width: 317px;
+  height: 317px;
+  position: relative;
+  top: 0px;
+}
+
+/* Developer details style */
+.developer-details {
+  text-align: center;
+}
+
+/* Headings */
+
+.developer-details h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 21px;
+  padding-bottom: 7px;
+}
+
+.developer-details h3 {
+  color: #f3bf99;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-bottom: 9px;
+}
+
+.developer-details h4 {
+  font-size: 10.24px;
+  line-height: 150%;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+/* Headings */
+
+/* Button container */
+
+.developer-details .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+/* Button container */
+
+/* Email button */
+.developer-details .email {
+  background-color: #fff;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Email button */
+
+/* Linkedin button */
+
+.developer-details .linkedin {
+  background: #5093e2;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Linkedin button */
+
+/*************** Email and Linkedin icons ***************/
+
+.email .icon {
+  background: url('../images/Mail.png');
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  padding-right: 8px;
+}
+
+.linkedin .icon {
+  background: url('../images/linkedin.png');
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  padding-right: 8px;
+}
+/*************** Email and Linkedin icons ***************/
+
+/* Developer details style */
+
+section {
+  background-color: #1a1b21;
+  color: white;
+}
+
+.about {
+  padding: 33px 33px 0px 33px;
+}
+
+.about h3 {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.interests {
+  padding: 20px 33px 35px 33px;
+}
+
+p {
+  font-weight: 400;
+  font-family: 'Inter';
+  font-size: 10.24px;
+  line-height: 150%;
+  padding-top: 5px;
+  color: #dcdcdc;
+}
+
+footer {
+  width: 317px;
+  position: relative;
+  height: 66px;
+  color: #fff;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
